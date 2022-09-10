@@ -8,16 +8,25 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;
+            background-size: cover;
+
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -29,6 +38,8 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A veniam esse quisquam rem natus recusandae quas quasi. Delectus numquam incidunt cumque optio maxime fugiat vel adipisci distinctio, facilis qui Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum perferendis provident neque vel nam maiores ea quos non cumque suscipit officia commodi quo sunt laborum rerum, a aliquid dignissimos. Aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam architecto asperiores voluptas perspiciatis omnis maiores expedita accusantium veritatis animi rerum, est laborum esse odio, hic voluptatibus ea harum. Minus, delectus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id veritatis impedit sapiente ex quidem fuga, culpa sunt vel excepturi pariatur provident eveniet alias rerum perferendis quo repellat reprehenderit aperiam placeat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla exercitationem consequuntur culpa sit magnam molestiae ad pariatur omnis, consectetur quia in! Voluptate recusandae nihil perspiciatis ad eaque aliquam officia libero?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eveniet voluptates libero voluptatum dolorem laudantium et earum autem commodi officiis eius maxime totam atque possimus, dicta ea nostrum. Dignissimos, facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia suscipit cupiditate quo laudantium, dolorem reiciendis voluptas inventore deserunt eum corporis odio ullam neque laboriosam delectus libero quibusdam autem saepe eligendi.</p>
     </main>
 </body>
 </html>
