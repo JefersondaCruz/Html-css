@@ -12,6 +12,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1.1em;
+    
 }
 body {
     background-color: white;
@@ -51,6 +53,35 @@ main {
     font-weight: 100;
 }
 
+.p22 {
+    
+    padding-top: 10%;
+    padding-bottom: 50%;
+    padding-left: 10px;
+    color: white;
+}
+
+
+.p2 {
+    
+    position: relative;
+}
+
 article#img1 {
+    
+    min-width: 700px;
+    width: 50em;
+    color: white;
     background-image: url(imagens/background001.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    
+    
+
+    
 }
