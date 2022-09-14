@@ -54,34 +54,40 @@ main {
 }
 
 .p22 {
-    
-    padding-top: 10%;
-    padding-bottom: 50%;
-    padding-left: 10px;
+    display: block;
+    width: 35%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 19px;
     color: white;
 }
 
 
 .p2 {
-    
+    padding-top: 80px;
     position: relative;
+}
+
+.p3 {
+    padding-top: 80px;
+}
+
+.p4, .p5, .p6, .p7, .p1 {
+    padding-top: 50px;
 }
 
 article#img1 {
     
     min-width: 700px;
-    width: 50em;
+    width: 39em;
     color: white;
     background-image: url(imagens/background001.jpg);
     height: 60vh;
+    padding-top: 40px;
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-    
-    
-    
-
-    
-}
+    border-radius: 10px;
+    }
